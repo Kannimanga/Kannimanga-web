@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    color: red;
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 0 auto
+    
+}
+nav .fa-bars{
+    display: none;
+}
+.logo{
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #2c2c2c;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-right: 2rem;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.nav-btn{
+    background: #0bca4b;
+    padding: 10px 16px;
+    border-radius: 4px;
+    color: white;
+}
+.nav-btn:hover{
+    background: rgb(36, 200, 255);
+    transition: 0.3s ease-in-out;
+}
+.main-content{
+    padding-top: 5rem;
+    max-width: 80px;
+    height: 80vh;
+    display: flex;
+    align-items: stretch;
+    background-position-x: center;
+    margin: 0 auto;
+    position: relative;
+    justify-content: space-between;
+}
+.heading1{
+    position: relative;
+    right: 100px;
+    bottom: -60px;
+}
+.paragraph{
+    position: relative;
+    bottom: -40px;
+    left: -80px;
+    right: -200px;
+}
+.main-col-right{
+    width: 50%;
+}
+.main-content p {
+    font-size: 20px;
+}
+.email{
+    position: relative;
+    bottom: 400px;
+    left: 680px;
+}
+.email{
+    width: 250px;
+    height: 36px;
+}
+.iconify{
+    position: relative;
+    bottom: 400px;
+    left: 670px;
+}
+.main-btn{
+    position: relative;
+    bottom: 320px;
+    left: 760px;
+}
+.main-btn{
+    background: #0bca4b;
+    padding: 6px 10px;
+    border-radius: 4px;
+    color: white;
+}
+.main-btn:hover{
+    background: rgb(36, 200, 255);
+    transition: 0.3s ease-in-out;
+}
+.logo{
+    background: #ff0e0e;
+    padding: 6px 10px;
+    border-radius: 4px;
+    color: white;
+}
+.logo:hover{
+    background: rgb(11, 253, 11);
+    transition: 0.3s ease-in-out;
+}
